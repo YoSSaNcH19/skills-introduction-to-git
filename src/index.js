@@ -355,5 +355,14 @@ function endGame() {
   document.getElementById("gameOver").classList.add("show");
 }
 
+// Sum function: returns the sum of two numbers
+function sum(a, b) {
+  return a + b;
+}
+
+// 2 + 2 = 4
+const result = sum(2, 2);
+console.log("2 + 2 =", result);
+
 // Start the game when page loads
 window.addEventListener("load", init);
